@@ -1,0 +1,13 @@
+echo "# ProjectDostavka_MichailE" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:nedvid23/ProjectDostavka_MichailE.git
+git push -u origin main
+
+
+ProjectDostavka_MichailE
+
+==
+npx sequelize model:create --name Product --attributes name:text
